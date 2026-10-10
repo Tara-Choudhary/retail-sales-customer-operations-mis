@@ -71,13 +71,13 @@ so that the original imported records remain available for reference.
 
 Missing values remaining in the clean customer data:
 
-  Field                  Missing records
-  -------------------- -----------------
-  Purchase amount                    558
-  Size                               374
-  Review rating                      600
-  Discount applied                     2
-  Previous purchases                 548
+| Field             | Missing Records |
+|-------------------|----------------:|
+| Purchase Amount   |             558 |
+| Size              |             374 |
+| Review Rating     |             600 |
+| Discount Applied  |               2 |
+| Previous Purchases|             548 |
 
 ### Order data
 
@@ -102,17 +102,17 @@ measured.
 
 ## 6. KPI Definitions
 
-  KPI                   Definition
-  --------------------- ---------------------------------------------
-  Total Orders          Count of order records / distinct order IDs
-  Total Quantity        Sum of quantity
-  Gross Sales           `List_price × Quantity`
-  Discount Amount       `Gross Sales × Discount_Percent / 100`
-  Net Sales             `Gross Sales − Discount Amount`
-  Total Cost            `cost_price × Quantity`
-  Profit                `Net Sales − Total Cost`
-  Profit Margin         `Profit / Net Sales × 100`
-  Average Order Value   `Net Sales / Total Orders`
+ | KPI | Definition |
+|---|---|
+| Total Orders | Count of order records / distinct order IDs |
+| Total Quantity | Sum of quantity |
+| Gross Sales | `List_price × Quantity` |
+| Discount Amount | `Gross Sales × Discount_Percent / 100` |
+| Net Sales | `Gross Sales − Discount Amount` |
+| Total Cost | `cost_price × Quantity` |
+| Profit | `Net Sales − Total Cost` |
+| Profit Margin | `Profit / Net Sales × 100` |
+| Average Order Value | `Net Sales / Total Orders` |
 
 SQL price calculations use decimal casting to support currency
 calculations, and `NULLIF` is used where needed to avoid division by
@@ -124,17 +124,17 @@ should not be interpreted as audited accounting profit.
 
 ## 7. Overall Results
 
-  KPI                            Result
-  --------------------- ---------------
-  Total Orders                    9,994
-  Total Quantity                 37,873
-  Gross Sales             11,485,170.00
-  Discount Amount            405,841.80
-  Net Sales               11,079,328.20
-  Total Cost              10,039,400.00
-  Calculated Profit        1,039,928.20
-  Profit Margin                 9.3862%
-  Average Order Value          1,108.60
+ | KPI | Result |
+|---|---:|
+| Total Orders | 9,994 |
+| Total Quantity | 37,873 |
+| Gross Sales | 11,485,170.00 |
+| Discount Amount | 405,841.80 |
+| Net Sales | 11,079,328.20 |
+| Total Cost | 10,039,400.00 |
+| Calculated Profit | 1,039,928.20 |
+| Profit Margin | 9.3862% |
+| Average Order Value | 1,108.60 |
 
 These figures are used as the baseline for reconciliation across
 monthly, category, segment, and exception analyses.
