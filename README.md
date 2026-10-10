@@ -49,6 +49,38 @@ year slicer, and management dashboard.
   Profit Margin         |          9.39%
   Average Order Value   |       1,108.60
 
+
+## Excel Management Dashboard
+
+The interactive Excel dashboard provides a consolidated view of key business KPIs, monthly sales trends, category performance, and profitability. A year slicer allows users to filter the dashboard by year.
+
+![Excel Management Dashboard](Screenshot/Excel/Management_Dashboard.png)
+
+## Excel Reporting
+
+The Excel workbook includes the following reporting worksheets:
+
+- `KPI_Summary` — Summary of key business performance indicators.
+- `Monthly_MIS` — Monthly sales and performance reporting.
+- `Sales_Performance` — Category, subcategory, and product performance analysis.
+- `Location_Performance` — Location-level sales analysis.
+- `Customer_Analysis` — Customer and subscription analysis.
+- `Exception_Report` — Records flagged for data-quality or pricing exceptions.
+- `Management_Dashboard` — Interactive dashboard for management reporting.
+
+## SQL Analysis
+
+SQL Server was used to validate the data and answer business questions related to:
+
+- Overall sales and profitability
+- Monthly sales performance
+- Category and subcategory performance
+- Product-level performance
+- Customer and subscription analysis
+- Segment and shipping-mode analysis
+- Discount and profitability analysis
+- Data-quality exceptions
+
 ## Key Findings
 
 -   Technology generated the highest category net sales and calculated
