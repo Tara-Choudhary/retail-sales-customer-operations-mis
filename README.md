@@ -37,17 +37,17 @@ year slicer, and management dashboard.
 
 ## Key KPIs
 
-  KPI                            Result
-  --------------------- ---------------
-  Total Orders                    9,994
-  Total Quantity                 37,873
-  Gross Sales             11,485,170.00
-  Discount Amount            405,841.80
-  Net Sales               11,079,328.20
-  Total Cost              10,039,400.00
-  Calculated Profit        1,039,928.20
-  Profit Margin                   9.39%
-  Average Order Value          1,108.60
+ | KPI                 |           Result|
+  |---------------------| ---------------|
+  Total Orders          |          9,994
+  Total Quantity        |        37,873
+  Gross Sales           |  11,485,170.00
+  Discount Amount       |     405,841.80
+  Net Sales             |  11,079,328.20
+  Total Cost            |  10,039,400.00
+  Calculated Profit     |   1,039,928.20
+  Profit Margin         |          9.39%
+  Average Order Value   |       1,108.60
 
 ## Key Findings
 
