@@ -41,25 +41,11 @@ Create a consistent reporting layer that helps management review:
 
 The project uses two source datasets loaded into SQL Server:
 
-  ------------------------------------------------------------------------
-  Table                                     Raw rows Description
-  --------------------- ---------------------------- ---------------------
-  `customer_raw`                               5,050 Customer attributes
-                                                     such as age,
-                                                     location,
-                                                     subscription,
-                                                     purchase amount,
-                                                     review rating, and
-                                                     purchase frequency
-
-  `order_raw`                                  9,994 Order date, shipping
-                                                     mode, segment,
-                                                     category, product,
-                                                     cost, list price,
-                                                     quantity, discount,
-                                                     and customer ID
-  ------------------------------------------------------------------------
-
+| Table         | Raw Rows | Description |
+|---------------|---------:|-------------|
+| `customer_raw` | 5,050 | Customer attributes such as age, location, subscription, purchase amount, review rating, and purchase frequency. |
+| `order_raw`    | 9,994 | Order date, shipping mode, segment, category, product, cost, list price, quantity, discount, and customer ID. |
+  
 The cleaned reporting tables are `customer_clean` and `order_clean`.
 
 ### Data workflow
