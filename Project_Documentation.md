@@ -2,7 +2,7 @@
 
 **Tools:** Microsoft SQL Server (SSMS), Microsoft Excel\
 **Project type:** MIS Reporting / Operations Analytics / Data Analysis\
-**Analysis period:** January 2022 -- December 2023
+
 
 ## 1. Project Overview
 
