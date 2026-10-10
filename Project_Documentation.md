@@ -260,7 +260,7 @@ by order year.
 -   `results/` --- exported query outputs
 -   `Retail_MIS_Reporting.xlsx` --- final Excel MIS workbook and
     dashboard
--   `screenshots/` --- dashboard screenshot, if included
+-   `screenshots/` --- dashboard screenshot
 
 ## 14. Conclusion
 
